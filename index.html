@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradox Productions Meet-Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <div class="back-arrow">←</div>
+                <div class="event-title">Paradox Productions Meet-Up</div>
+            </div>
+            <div class="top-bar-right">
+                <div class="help-icon">?</div>
+                <div class="profile-icon">JD</div>
+            </div>
+        </div>
+
+        <nav class="overview-nav">
+            <a href="#" class="active">Overview</a>
+            <a href="#">Guests</a>
+            <a href="#">Event Page</a>
+            <a href="#">Forms</a>
+            <a href="#">Report</a>
+            <a href="#">Scan Off In</a>
+            <a href="#">Event Logs</a>
+            <a href="#">Finance</a>
+            <a href="#">Push Event</a>
+            <a href="#">Email Events</a>
+        </nav>
+
+        <div class="divider-top"></div>
+
+        <section class="at-a-glance">
+            <h2>At A Glance</h2>
+            <div class="at-a-glance-stats">
+                <div class="stat-item">
+                    <span class="stat-number">50</span>
+                    <span class="stat-label">unique guests</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1</span>
+                    <span class="stat-label">EBW Special Ticket</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">55</span>
+                    <span class="stat-label">Demo Prod Ticket</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">40</span>
+                    <span class="stat-label">Hackathon</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">150</span>
+                    <span class="stat-label">New Ticket</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Last Registered 1st May at 7:42 PM</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number green">59</span>
+                    <span class="stat-label">shortlisted</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number red">11</span>
+                    <span class="stat-label">unclaimed</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="guests-actions">
+            <div class="dropdown-button">Dropped Guests <span class="dropdown-icon"></span></div>
+            <div class="dropdown-button">Blacklisted Users <span class="dropdown-icon"></span></div>
+            <div class="dropdown-button">Export Data <span class="dropdown-icon"></span></div>
+            <button class="add-guest-button">+ Add Guest</button>
+        </section>
+
+        <section class="guests-list-section">
+            <div class="guests-list-header">
+                <h3>Guests List</h3>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <h3>Recent Guests (30)</h3>
+
+            <table class="recent-guests-table">
+                <thead>
+                    <tr>
+                        <th>Guest</th>
+                        <th></th>
+                        <th>Checked In</th>
+                        <th>Approval Status</th>
+                        <th>Registration Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="guest-name">Ananthu M P</td>
+                        <td class="guest-id">@chn21ec019</td>
+                        <td class="checked-in"><span class="status-checkedin"></span></td>
+                        <td class="approval-status"><span class="status-approved"></span> Approved</td>
+                        <td class="registration-status"><span class="status-box green-fill"></span></td>
+                        <td class="actions">
+                            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4"/></svg>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="guest-name">Aswin Asok</td>
+                        <td class="guest-id">@aswinasokofficial</td>
+                        <td class="checked-in"></td>
+                        <td class="approval-status"><span class="status-pending"></span> Pending</td>
+                        <td class="registration-status"><span class="status-box"></span></td>
+                        <td class="actions">
+                            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4"/></svg>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div class="pagination">
+                    <div class="pagination-left">
+                        <span>659 Records</span>
+                    </div>
+                    <div class="pagination-right">
+                        <span>Per Page:</span>
+                        <button class="pagination-button active">30</button>
+                        <span>1 of 7</span>
+                        <button class="pagination-button">←</button>
+                        <button class="pagination-button">→</button>
+                    </div>
+                </div>
+        </section>
+    </div>
+</body>
+</html>
